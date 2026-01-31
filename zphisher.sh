@@ -1,3 +1,4 @@
+13
 #!/bin/bash
 
 ##   Zphisher 	: 	Automated Phishing Tool
@@ -761,8 +762,9 @@ main_menu() {
 	case $REPLY in 
 		1 | 01)
 			site_facebook;;
-		2 | 02)
-			site_instagram;;
+		2 | 0
+			site_instagram;;02
+			
 		3 | 03)
 			site_gmail;;
 		4 | 04)
@@ -909,3 +911,6 @@ check_status
 install_cloudflared
 install_localxpose
 main_menu
+02
+
+  
